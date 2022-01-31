@@ -1,0 +1,34 @@
+https://practice.geeksforgeeks.org/problems/remove-vowels-from-string1446/1
+
+class Solution{
+public:	
+		
+	string removeVowels(string S) 
+	{     int v=0;
+	   unordered_map<char,int>map;
+	   map['a']=1;
+	   map['e']=1;
+	  map['i']=1;
+	  map['o']=1;
+	  map['u']=1;
+	  
+	  for(int p=0;S[p]!='\0';p++){
+	      if(map[S[p]]==1)
+	      continue;
+	      else
+	      {
+	          S[v]=S[p];
+	          v++;
+	      }
+	  }
+	  S[v]='\0';
+	  for(int i=v;i<S.size();i++)
+	     S[i]=' '; 
+	  
+	  return S;
+	  
+	}
+	   
+	    // Your code goes here
+	
+};
