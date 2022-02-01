@@ -1,0 +1,50 @@
+#include <iostream>
+using namespace std;
+
+
+int main(){
+  int x=0;
+  int y=0;
+  int n=5;
+  
+  char compass ='R';
+  int distance=10;
+
+  while(n){
+    switch(compass){
+      case 'R':
+       x+=distance;
+       distance+=10;
+       compass='U';
+       break;
+
+       case'U':
+       y+=distance;
+       distance+=10;
+       compass='L';
+       break;
+       case'L':
+       x-=distance;
+       distance+=10;
+       compass='D';
+       break;
+       case'D':
+       y-=distance;
+       distance+=10;
+       compass='A';
+       break;
+       case'A':
+       x+=distance;
+       distance+=10;
+       compass='U';
+       break;  
+    }
+    n--;
+  }
+  cout<<x<<y;
+
+}
+
+o/p:
+n=5
+(30-20)
