@@ -1,0 +1,35 @@
+for gcd:
+class Solution
+{
+	public:
+    int gcd(int A, int B) 
+	{ 
+	    if(B==0)
+	    return A;
+	    return gcd(B,A%B);
+	    // code here
+	      
+	} 
+};
+
+
+
+for lcm:
+#include <iostream>
+using namespace std;
+
+
+int gcd(int a, int b){
+  if(b==0)
+   return a;
+   return gcd(b,a%b);
+}
+
+int lcm(int a,int b){
+  int ans=0;
+  ans=(a*b)/(gcd(a,b));
+    return ans;
+}
+int main() {
+  cout<<lcm(5,11)<<endl;
+}
