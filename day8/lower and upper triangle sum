@@ -1,0 +1,27 @@
+    public:
+    //Function to return sum of upper and lower triangles of a matrix.
+    vector<int> sumTriangles(const vector<vector<int> >& matrix, int n)
+    {
+         int upper_moon=0;
+    int lower_moon=0;
+    for(int i=0;i<n;i++){
+        for(int j=0;j<n;j++){
+            if(i==j){
+                upper_moon+=matrix[i][j];
+                lower_moon+=matrix[i][j];
+            }
+           else if(i>j)
+                lower_moon+=matrix[i][j];
+            else
+                upper_moon+=matrix[i][j];
+           
+            }
+            
+        }
+         vector<int>ans;
+         ans.push_back(upper_moon);
+         ans.push_back(lower_moon);
+         return ans;
+        // code here
+    }
+};
