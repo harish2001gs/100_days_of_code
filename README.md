@@ -8,4 +8,4 @@
 *Day7-Anagram
 *Day8-lower and upper triangle sum
 *Day9-Count pair sum
-*Day10-Equilibrium Point,transitionPoint(OWN)
+*Day10-Equilibrium Point,transitionPoint(OWN),index of extra element.
