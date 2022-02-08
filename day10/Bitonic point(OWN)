@@ -1,0 +1,17 @@
+class Solution{
+public:
+	
+	int findMaximum(int arr[], int n) {
+	 // return *max_element(arr, arr+n);  //sol 1
+	  int i;
+	  int max=arr[0];
+	  for(i=1;i<n;i++){
+	      if(max<arr[i])
+	       max=arr[i];
+	  }
+	  return max; //sol2
+	        
+	    }
+	    // code here
+	
+};
