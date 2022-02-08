@@ -7,3 +7,4 @@
 *Day6-Implement strstr (not used build in function)
 *Day7-Anagram
 *Day8-lower and upper triangle sum
+*Day9-Count pair sum
