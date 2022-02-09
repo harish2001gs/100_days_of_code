@@ -9,3 +9,4 @@
 *Day8-lower and upper triangle sum
 *Day9-Count pair sum
 *Day10-Equilibrium Point,transitionPoint(OWN),index of extra element(OWN),Bitonic point(OWN).
+*Day11-Need Some Change (OWN)
