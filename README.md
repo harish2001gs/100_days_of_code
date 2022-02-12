@@ -10,3 +10,4 @@
 *Day9-Count pair sum
 *Day10-Equilibrium Point,transitionPoint(OWN),index of extra element(OWN),Bitonic point(OWN).
 *Day11-Need Some Change (OWN)
+*Day12-missing and repeat 
