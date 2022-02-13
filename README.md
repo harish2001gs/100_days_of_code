@@ -12,3 +12,4 @@
 *Day11-Need Some Change (OWN)
 *Day12-missing and repeat 
 *Day13-Largest elemeny in array(own),sum of array
+*Day14-Vowel
