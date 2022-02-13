@@ -11,4 +11,4 @@
 *Day10-Equilibrium Point,transitionPoint(OWN),index of extra element(OWN),Bitonic point(OWN).
 *Day11-Need Some Change (OWN)
 *Day12-missing and repeat 
-*Day13-Largest elemeny in array(own)
+*Day13-Largest elemeny in array(own),sum of array
