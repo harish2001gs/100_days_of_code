@@ -1,0 +1,15 @@
+class Solution{
+    public:
+    int getSum(int a[], int n) {
+        // Your code goes here
+        int i,sum=0;
+        for(i=0;i<n;i++){
+            a[i];
+             sum+=a[i];
+        }
+        return sum;
+       
+        
+    }  
+    
+};
