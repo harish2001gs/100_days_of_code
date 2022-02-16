@@ -14,4 +14,5 @@
 *Day13-Largest elemeny in array(own),sum of array
 *Day14-Vowel
 *Day15-Bubble sort
-*Day16-Palindrome
+*Day16-Palindrome(using begin,end)
+*Day17-palendrome(own)
