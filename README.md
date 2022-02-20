@@ -17,4 +17,4 @@
 *Day16-Palindrome(using begin,end)
 *Day17-palendrome(own),palendrome(number)
 *Day18-reverse of a number
-*Day19-creating 2d array(own)
+*Day19-creating 2d array(own),addition of 2d matrix(own)
