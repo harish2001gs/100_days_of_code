@@ -15,4 +15,4 @@
 *Day14-Vowel
 *Day15-Bubble sort
 *Day16-Palindrome(using begin,end)
-*Day17-palendrome(own)
+*Day17-palendrome(own),palendrome(number)
