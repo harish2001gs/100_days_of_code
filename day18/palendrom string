@@ -1,0 +1,24 @@
+#include <iostream>
+#include<string.h>
+using namespace std;
+
+int main() {
+char str[100];
+  cin>>str;
+  int i,j,flag=0;
+  j=strlen(str);
+  
+  for(i=0;i<j;i++){
+    if(str[i]!=str[j-i-1]){
+      flag=1;
+      break;
+  }
+    }
+if(flag){
+cout<<"String illa";
+  }
+else{
+  cout<<"string da";
+}
+  
+}
