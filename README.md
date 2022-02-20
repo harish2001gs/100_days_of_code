@@ -18,3 +18,4 @@
 *Day17-palendrome(own),palendrome(number)
 *Day18-reverse of a number
 *Day19-creating 2d array(own),addition of 2d matrix(own)
+*Day20-transpose of 2d matrix and gfg(own) using temp
