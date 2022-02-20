@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+int n,rev=0,copy;
+  cin>>n;
+  copy=n;
+while(copy>0){
+  rev = rev*10;
+  rev = rev+(copy%10);
+  copy/=10;
+}
+  if(n==rev)
+  {
+    cout<<"Palendrome";
+  }
+  else
+  {
+    cout<<"Nope";
+  }
+  
+}
