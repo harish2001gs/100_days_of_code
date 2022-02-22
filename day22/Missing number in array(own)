@@ -1,0 +1,13 @@
+class Solution{
+  public:
+    int MissingNumber(vector<int>& array, int n) {
+        // Your code goes here
+        int i;
+        int sum = (n*(n+1))/2;
+        
+       for(i=0; i<array.size(); i++) {
+           sum -= array[i];
+        }
+         return sum;
+    }
+};
