@@ -20,3 +20,4 @@
 *Day19-creating 2d array(own),addition of 2d matrix(own)
 *Day20-transpose of 2d matrix and gfg(own) using temp
 *Day21-sort of 0,1,2
+*Day22-Missing number in array
