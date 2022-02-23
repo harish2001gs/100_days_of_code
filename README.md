@@ -22,3 +22,4 @@
 *Day21-sort of 0,1,2
 *Day22-Missing number in array
 *Day23-Print Matrix in snake Pattern 
+*Day24-Binary String(OWN)
