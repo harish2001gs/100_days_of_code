@@ -24,3 +24,4 @@
 *Day23-Print Matrix in snake Pattern 
 *Day24-Binary String(OWN)
 *Day25-Check if two arrays are equal or not (OWN) by using sort and traverse, by using hashmap
+*Day26-Anagram Palindrome(own)
