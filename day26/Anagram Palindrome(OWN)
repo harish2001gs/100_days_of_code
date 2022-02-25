@@ -1,0 +1,39 @@
+int isPossible (string S)
+{ 
+   /* unordered_map<char,int>map;
+    int odd=0,even=0;
+    for(int i=0;i<S.length();i++){
+        map[S[i]]++;
+    }
+    for(auto i:map){
+        if(i.second%2==0){
+            even++;
+        }
+        else{
+        odd++;
+        }
+        if(odd>1)
+        return 0;
+    }
+    
+    return 1;
+    */
+    unordered_map<char,int>h;
+    for(int i=0;i<S.size();i++){
+        h[S[i]]++;
+    }
+    int i,oddcount=0;
+    for(auto i:h){
+     if(i.second %2==0)
+     continue;
+     else
+     oddcount++;
+    }
+     if(S.size()%2==0 && oddcount==0){
+     return 1;
+     }
+     if(S.size()%2!=0 && oddcount ==1)
+     return 1;
+     else
+     return 0;
+     
