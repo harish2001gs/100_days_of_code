@@ -1,0 +1,25 @@
+class Solution{
+    public:
+    bool isSubSequence(string A, string B) 
+    {
+        int i=0;
+        int j=0;
+        while(1){
+            if(A[i]==B[j]){
+                i++;
+                j++;
+            }
+            else
+            {
+                j++;
+            }
+            if(i==A.size()){
+                return 1;
+            }
+            else if(j==B.size()){
+                return 0;
+            }
+        }
+    }
+        
+};
