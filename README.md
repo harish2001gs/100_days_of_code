@@ -31,3 +31,4 @@
 *Day30-max till i , subarray max sum
 *Day31-Total count (Own)
 *Day32-Exceptionally odd ,substring sum is odd(OWN)
+*Day33-zig-zag conversion of array
