@@ -33,3 +33,4 @@
 *Day32-Exceptionally odd ,substring sum is odd(OWN)
 *Day33-zig-zag conversion of array
 *Day34-delete all alternate nodes  in linked list 
+*Day35-Greater on right side 
