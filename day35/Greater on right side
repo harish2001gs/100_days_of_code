@@ -1,0 +1,18 @@
+class Solution{
+public:	
+	/* Function to replace every element with the
+	next greatest element */
+	void nextGreatest(int arr[], int n) {
+	    int gtr=-1;
+	    int temp =0;
+	    for(int i=n-1;i>=0;i--){
+	        temp=arr[i];
+	        arr[i]=gtr;
+	        gtr=max(temp,gtr);
+	    }
+	   
+	    // code here
+	}
+
+
+};
