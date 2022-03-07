@@ -35,3 +35,4 @@
 *Day34-delete all alternate nodes  in linked list 
 *Day35-Greater on right side 
 *Day36-Maximum product of two numbers (own)
+*Day37-Count pair sum (OWN)
