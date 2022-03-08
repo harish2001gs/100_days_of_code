@@ -1,0 +1,48 @@
+class Solution{
+  public:
+    /*you are required to complete this method*/
+    int convertFive(int n)
+    { 
+        /*
+        int i;
+        string str = to_string(n);
+        for(i=0;i<str.length();i++){
+            if(str[i]=='0'){
+                str[i]='5';
+            }
+        }
+           n=stoi(str);
+           return n;
+    //Your code here
+
+*/
+int rev;
+int mul=1;
+int copy=n;
+while(n>0){
+    int rev=n%10;
+    if(rev==0){
+   
+    copy+=mul*5;
+    }
+
+mul*=10;
+n/=10;
+}
+    return copy;
+}
+};
+
+// { Driver Code Starts.
+int main()
+{
+    int T;
+    cin>>T;
+    while(T--)
+    {
+    	int n;
+    	cin>>n;
+    	Solution obj;
+    	cout<<obj.convertFive(n)<<endl;
+    }
+}  // }
