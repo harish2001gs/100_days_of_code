@@ -37,3 +37,4 @@
 *Day36-Maximum product of two numbers (own)
 *Day37-Count pair sum (OWN)
 *Day38-Replace all 0's with 5 
+*Day39-Find triplets with zero sum 
