@@ -40,3 +40,4 @@
 *Day39-Find triplets with zero sum 
 *Day40-Minimum difference pair 
 *Day41-String Reversal elimate repeate char + space
+*Day42-Remove duplicate elements from sorted Array (own)
