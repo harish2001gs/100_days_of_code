@@ -43,3 +43,4 @@
 *Day42-Remove duplicate elements from sorted Array (own)
 *Day43-Form a number divisible by 3 using array digits (own)
 *Day44-Plus One 
+*Day45Remove duplicate element from sorted Linked List
