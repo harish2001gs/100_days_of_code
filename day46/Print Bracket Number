@@ -1,0 +1,28 @@
+class Solution{
+public:	
+
+	vector<int> barcketNumbers(string S)
+	{
+	    // Your code goes here
+	    vector<int>ans;
+	    stack<int>st;
+	    int counter=1;
+	    for(int i=0;i<S.size();i++){
+	        if(S[i]=='('){
+	            ans.push_back(counter);
+	            st.push(counter);
+	            counter++;
+	            
+	            
+	        }
+	        else
+	        {
+	            if(S[i]==')'){
+	                ans.push_back(st.top());
+	                st.pop();
+	            }
+	        }
+	    }
+	    return ans;
+	}
+};
