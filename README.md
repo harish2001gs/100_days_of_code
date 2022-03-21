@@ -47,3 +47,4 @@
 *Day46-Print Bracket Number 
 *Day47-Special array reversal 
 *Day48-Boolean Matrix 
+*Day49-Detect Loop in linked list
