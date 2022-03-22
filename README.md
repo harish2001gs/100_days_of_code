@@ -48,3 +48,4 @@
 *Day47-Special array reversal 
 *Day48-Boolean Matrix 
 *Day49-Detect Loop in linked list
+*Day50-Create Non Repeating Character(own)
