@@ -1,0 +1,15 @@
+int isLengthEvenOrOdd(struct Node* head)
+{
+    
+    Node* pointer=head;
+    int count=0;
+    while(pointer !=NULL){
+        count ++;
+        pointer= pointer ->next;
+    }
+    if(count%2!=0)
+    return true;
+    else
+    return false;
+     //Code here
+}
