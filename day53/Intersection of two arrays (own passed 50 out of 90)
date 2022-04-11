@@ -1,0 +1,49 @@
+class Solution {
+  public:
+    // Function to return the count of the number of elements in
+    // the intersection of two arrays.
+    int NumberofElementsInIntersection(int a[], int b[], int n, int m) {
+        // Your code goes here
+         // code here
+   int count =0;
+     for(int i=0;i<n;i++)
+         for(int j=0;j<m;j++)
+             if(a[i]==b[j])
+                 count++;
+           
+      return count;
+    
+      
+      
+     /* unordered_map<int,int>map;
+      int count =0;
+      
+      if(n>m){
+          for(int i=0;i<m;i++)
+              map[b[i]]=1;
+          
+          for(int i=0;i<n;i++){
+              if(map[a[i]]==1){
+                  count++;
+                  map[a[i]]=0;
+              }
+          }
+      }
+      if(n<=m){
+          for(int i=0;i<n;i++)
+              map[a[i]]=1;
+          
+          for(int i=0;i<m;i++){
+              if(map[b[i]]==1){
+                  count++;
+                  map[b[i]]=0;
+              }
+          }
+      }
+      return count;
+      */
+      
+}
+
+    
+};
